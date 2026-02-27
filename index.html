@@ -15,22 +15,16 @@
 </head>
 
 <body>
-    <header class="header">
-        <h1>CV Artisan</h1>
-        <div class="controls">
-            <button class="btn-download" onclick="downloadPDF()">
+    <div class="main-container">
+        <!-- Preview -->
+        <main class="preview-container">
+            <!-- Floating Download Button -->
+            <button class="btn-download floating-btn" onclick="downloadPDF()">
                 <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
                 </svg>
-                Download PDF
             </button>
-        </div>
-    </header>
-
-    <div class="main-container">
-        <!-- Preview -->
-        <main class="preview-container">
             <div id="cv-preview">
                 <!-- Sidebar -->
                 <div class="cv-sidebar">
